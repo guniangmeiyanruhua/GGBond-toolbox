@@ -10,7 +10,7 @@ ORANGE='\033[38;5;208m'
 # 脚本路径
 # =============================
 SCRIPT_PATH="/root/panel.sh"
-SCRIPT_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/panel.sh"
+SCRIPT_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/panel.sh"
 BIN_LINK_DIR="/usr/local/bin"
 
 # =============================
@@ -57,31 +57,31 @@ menu() {
     
     case $choice in
         1|01)
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/baota.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/baota.sh)
             pause
             ;;
         2|02)
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/gjbaota.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/gjbaota.sh)
             pause
             ;;
         3|03)
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/kxbaota.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/kxbaota.sh)
             pause
             ;;
         4|04)
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/1Panel.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/1Panel.sh)
             pause
             ;;
         5|05)
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/tz1panel.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/tz1panel.sh)
             pause
             ;;
         6|06)
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/kx1Panelv1.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/kx1Panelv1.sh)
             pause
             ;;
         7|07)
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/kx1Panelv2.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/kx1Panelv2.sh)
             pause
             ;;
         8|08)
@@ -97,47 +97,47 @@ menu() {
             pause
             ;;
         11)
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/Halo.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/Halo.sh)
             pause
             ;;
         12)
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/RemioHome.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/RemioHome.sh)
             pause
             ;;
         13)
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/MomentsBlog.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/MomentsBlog.sh)
             pause
             ;;
         14)
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/Flarum.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/Flarum.sh)
             pause
             ;;
         15)
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/WordPress.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/WordPress.sh)
             pause
             ;;
         16)
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/WordPressmysql.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/WordPressmysql.sh)
             pause
             ;;
         17)
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/Typecho.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/Typecho.sh)
             pause
             ;;
         18)
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/Typechomysql.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/Typechomysql.sh)
             pause
             ;;
         19)
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/Rhex.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/Rhex.sh)
             pause
             ;;
         20)
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/XPPanel.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/XPPanel.sh)
             pause
             ;;
         21)
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/SamWaf.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/SamWaf.sh)
             pause
             ;;
          

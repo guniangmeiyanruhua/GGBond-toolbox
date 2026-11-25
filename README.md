@@ -34,13 +34,13 @@ bash <(curl -fsSL https://w.cnm.xx.kg)
 备用（GitHub 原始地址）：
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/gg-toolbox.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/gg-toolbox.sh)
 ```
 
 或先下载再运行：
 
 ```bash
-curl -fsSL -o gg-toolbox.sh https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/gg-toolbox.sh && bash gg-toolbox.sh
+curl -fsSL -o gg-toolbox.sh https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/gg-toolbox.sh && bash gg-toolbox.sh
 ```
 
 

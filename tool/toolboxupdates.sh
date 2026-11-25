@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# GG 适配版: base_url 改为 guniangmeiyanruhua/gg-toolbox, 更新目标改为 /etc/gg-toolbox.sh (源自 sistarry/toolbox 的 tool/toolboxupdates.sh)
+# GG 适配版: base_url 改为 guniangmeiyanruhua/GGBond-toolbox, 更新目标改为 /etc/gg-toolbox.sh (源自 sistarry/toolbox 的 tool/toolboxupdates.sh)
 set -e
 
 #################################
@@ -39,10 +39,10 @@ download_file() {
     local target_path="$1"
     local dest="$2"
     local name="$3"
-    local base_url="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main"
+    local base_url="https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main"
     
     # 判断传入的是绝对 URL 还是相对路径，如果是绝对 URL 则提取相对部分
-    if [[ "$target_path" =~ ^https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/(.*) ]]; then
+    if [[ "$target_path" =~ ^https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/(.*) ]]; then
         target_path="${BASH_REMATCH[1]}"
     fi
 

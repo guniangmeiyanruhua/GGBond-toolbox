@@ -6,7 +6,7 @@ set -e
 #################################
 ROOT="/root"
 SCRIPT_PATH="$ROOT/toolboxupdate.sh"
-SCRIPT_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/tool/update.sh"
+SCRIPT_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/tool/update.sh"
 CONF="/etc/toolbox-update.conf"
 LOG_FILE="/var/log/toolbox-update.log"
 CRON_TAG="# toolbox-auto-update"
@@ -101,22 +101,22 @@ run_update() {
 
     # 更新各脚本
     update_one "vps-toolbox" "vps-toolbox.sh" \
-    "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/tool/vps-toolbox.sh"
+    "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/tool/vps-toolbox.sh"
 
     update_one "proxy" "proxy.sh" \
-    "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/proxy.sh"
+    "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/proxy.sh"
 
     update_one "oracle" "oracle.sh" \
-    "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Oracle/oracle.sh"
+    "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Oracle/oracle.sh"
 
     update_one "store" "store.sh" \
-    "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Docker/Store.sh"
+    "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Docker/Store.sh"
 
     update_one "panel" "panel.sh" \
-    "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/panel.sh"
+    "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/panel.sh"
 
     update_one "nat" "nat.sh" \
-    "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/toy/NAT.sh"
+    "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/toy/NAT.sh"
 
     if [ ${#UPDATED_LIST[@]} -gt 0 ]; then
         MSG="🚀 脚本已更新

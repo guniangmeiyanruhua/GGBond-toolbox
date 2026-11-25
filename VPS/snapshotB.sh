@@ -29,7 +29,7 @@ if [ -f "$ADMIN_SCRIPT" ]; then
         exec "$ADMIN_SCRIPT" "$@"
     fi
 else
-    curl -sL  https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/snapshotB.sh > "$ADMIN_SCRIPT"
+    curl -sL  https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/snapshotB.sh > "$ADMIN_SCRIPT"
     if [ $? -eq 0 ] && [ -s "$ADMIN_SCRIPT" ]; then
         chmod +x "$ADMIN_SCRIPT"
         hash -r

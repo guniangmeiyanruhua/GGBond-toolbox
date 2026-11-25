@@ -2,7 +2,7 @@
 # GGBond的工具箱 - 基于 sistarry/toolbox 裁剪
 # 原仓库: https://github.com/sistarry/toolbox
 # 只保留: m1 系统设置 / m2 网络代理 / m3 网络检测 / m7 系统管理 / m10 更新卸载
-# 子脚本拉取地址已改为本仓库 guniangmeiyanruhua/gg-toolbox (VPS/OS/PROXY/Docker 子目录每天对比同步上游)
+# 子脚本拉取地址已改为本仓库 guniangmeiyanruhua/GGBond-toolbox (VPS/OS/PROXY/Docker 子目录每天对比同步上游)
 # m10 更新卸载已适配: 88 从本仓库更新 gg-toolbox.sh, 77 用本仓库 tool/toolboxupdates.sh
 # VPS Toolbox
 # 功能：
@@ -472,78 +472,78 @@ remove_shortcut() {
 # 执行菜单选项
 execute_choice() {
     case "$1" in
-        1) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/update.sh) ;;
-        2) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/vpsinfo.sh) ;;
+        1) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/update.sh) ;;
+        2) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/vpsinfo.sh) ;;
         3) sudo passwd root ;;
-        4) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/SSHDLGL.sh) ;;
-        5) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/sshdk.sh) ;;
-        6) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/time.sh) ;;
-        7) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/systemdtimesyncd.sh) ;;
-        8) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/qhwl.sh) ;;
-        9) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/UFWFX.sh) ;;
-        10) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/huanyuan.sh) ;;
-        11) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/Debian13.sh) ;;
-        12) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/windowos.sh) ;;
-        13) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/DDnat.sh) ;;
-        14) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/ddfnos.sh) ;;
-        15) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/xgyu.sh) ;;
-        16) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/home.sh) ;;
-        17) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Mosdnsxos.sh) ;;
-        18) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/vpsupos.sh) ;;
+        4) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/SSHDLGL.sh) ;;
+        5) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/sshdk.sh) ;;
+        6) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/time.sh) ;;
+        7) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/systemdtimesyncd.sh) ;;
+        8) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/qhwl.sh) ;;
+        9) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/UFWFX.sh) ;;
+        10) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/huanyuan.sh) ;;
+        11) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/Debian13.sh) ;;
+        12) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/windowos.sh) ;;
+        13) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/DDnat.sh) ;;
+        14) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/ddfnos.sh) ;;
+        15) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/xgyu.sh) ;;
+        16) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/home.sh) ;;
+        17) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/Mosdnsxos.sh) ;;
+        18) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/vpsupos.sh) ;;
         19) sudo reboot ;;
-        20) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/proxy.sh) ;;
-        21) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/FRPos.sh) ;;
-        22) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/EasyTierx.sh) ;;
-        23) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/ShellCrash.sh) ;;
+        20) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/proxy.sh) ;;
+        21) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/FRPos.sh) ;;
+        22) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/EasyTierx.sh) ;;
+        23) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/ShellCrash.sh) ;;
         24) wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh ;;
         25) bash <(curl -fsSL https://raw.githubusercontent.com/Kylin010/tcpfit/main/tcpfit.sh) ;;
-        26) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/BBR.sh) ;;
-        27) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/MicaProxyos.sh) ;;
-        28) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/XrayVLESS-Realityos.sh) ;;
-        29) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Snellv6SSos.sh) ;;
-        30) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/SB-SS2022os.sh) ;;
-        31) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/XrayVLESS-Encryptionos.sh) ;;
-        32) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/SB-Hy2os.sh) ;;
-        33) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/2go.sh) ;;
-        34) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/SB-AnyTLSos.sh) ;;
-        35) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/nftablesos.sh) ;;
+        26) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/BBR.sh) ;;
+        27) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/MicaProxyos.sh) ;;
+        28) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/XrayVLESS-Realityos.sh) ;;
+        29) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/Snellv6SSos.sh) ;;
+        30) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/SB-SS2022os.sh) ;;
+        31) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/XrayVLESS-Encryptionos.sh) ;;
+        32) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/SB-Hy2os.sh) ;;
+        33) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/2go.sh) ;;
+        34) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/SB-AnyTLSos.sh) ;;
+        35) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/nftablesos.sh) ;;
         36) smart_pipe_run "https://raw.githubusercontent.com/zywe03/realm-xwPF/main/xwPF.sh" "install" ;;
-        37) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/flux-panel.sh);;
-        38) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/DDNS.sh) ;;
-        39) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/SNIProxyDNSos.sh) ;;
-        40) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/port-traffic-dog.sh) ;;
-        41) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/vnstat.sh) ;;
-        42) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/NodeQuality.sh) ;;
+        37) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/flux-panel.sh);;
+        38) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/DDNS.sh) ;;
+        39) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/SNIProxyDNSos.sh) ;;
+        40) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/port-traffic-dog.sh) ;;
+        41) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/vnstat.sh) ;;
+        42) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/NodeQuality.sh) ;;
         43) curl -L https://gitlab.com/spiritysdx/za/-/raw/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh ;;
         44) curl -sL https://yabs.sh | bash ;;
-        45) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/NetQuality.sh) ;;
-        46) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/IPQuality.sh) ;;
-        47) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/HardwareQuality.sh) ;;
-        48) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/TcpQuality.sh) ;;
+        45) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/NetQuality.sh) ;;
+        46) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/IPQuality.sh) ;;
+        47) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/HardwareQuality.sh) ;;
+        48) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/TcpQuality.sh) ;;
         49) curl https://raw.githubusercontent.com/ludashi2020/backtrace/main/install.sh -sSf | sh ;;
         50) bash <(curl -Ls https://Net.Check.Place) -R ;;
         51) bash <(curl -Ls unlock.icmp.ing/scripts/test.sh) ;;
-        52) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/ecsspeed.sh) ;;
+        52) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/ecsspeed.sh) ;;
         53) bash <(wget -qO- https://raw.githubusercontent.com/Cd1s/network-latency-tester/main/latency.sh) ;;
-        54) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/Telnet.sh) ;;
-        55) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/Networktoolx.sh) ;; 
-        72) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/clear.sh) ;;
-        73) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/reinstall.sh) ;;
-        74) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/package.sh) ;;
-        75) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/exploitation.sh) ;;
-        76) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/tmux.sh) ;;
-        78) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/firewallos.sh) ;;
-        79) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Fail2banos.sh) ;;
-        80) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/System.sh) ;;
-        81) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/SWAP.sh) ;;
-        82) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/DNSos.sh) ;;
-        83) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/crontab.sh) ;;
+        54) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/Telnet.sh) ;;
+        55) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/Networktoolx.sh) ;; 
+        72) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/clear.sh) ;;
+        73) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/reinstall.sh) ;;
+        74) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/package.sh) ;;
+        75) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/exploitation.sh) ;;
+        76) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/tmux.sh) ;;
+        78) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/firewallos.sh) ;;
+        79) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/Fail2banos.sh) ;;
+        80) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/System.sh) ;;
+        81) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/SWAP.sh) ;;
+        82) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/DNSos.sh) ;;
+        83) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/crontab.sh) ;;
 
 
-        77) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/tool/toolboxupdates.sh) ;;
+        77) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/tool/toolboxupdates.sh) ;;
         88)
             echo -e "${yellow}正在更新工具箱...${reset}"
-            if ! smart_curl "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/gg-toolbox.sh" > "$INSTALL_PATH"; then
+            if ! smart_curl "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/gg-toolbox.sh" > "$INSTALL_PATH"; then
                 echo -e "${red}更新失败，所有代理及直连均无法访问，请检查网络！${reset}"
                 return 1
             fi
@@ -596,7 +596,7 @@ ensure_shortcut() {
     if [[ $EUID -ne 0 ]]; then
         if command -v sudo >/dev/null 2>&1; then SUDO="sudo"; else return 0; fi
     fi
-    if smart_curl "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/gg-toolbox.sh" > /tmp/gg-toolbox-install.sh 2>/dev/null && [[ -s /tmp/gg-toolbox-install.sh ]]; then
+    if smart_curl "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/gg-toolbox.sh" > /tmp/gg-toolbox-install.sh 2>/dev/null && [[ -s /tmp/gg-toolbox-install.sh ]]; then
         $SUDO cp /tmp/gg-toolbox-install.sh "$INSTALL_PATH" 2>/dev/null
         $SUDO chmod +x "$INSTALL_PATH" 2>/dev/null
         $SUDO ln -sf "$INSTALL_PATH" "$SHORTCUT_PATH" 2>/dev/null

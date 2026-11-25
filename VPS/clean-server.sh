@@ -9,7 +9,7 @@ RED="\033[31m"
 RESET="\033[0m"
 
 SCRIPT_PATH="/usr/local/bin/clean-server"
-SCRIPT_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/clean-server.sh" 
+SCRIPT_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/clean-server.sh" 
 CONFIG_FILE="/etc/clean-server.conf"
 
 # 加载 TG 配置

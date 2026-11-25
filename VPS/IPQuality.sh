@@ -61,7 +61,7 @@ menu() {
         3) run_check -6 "IPv6 检测" ;;
         4) run_check socks5 "SOCKS5 代理检测" ;;
         5) run_check http "HTTP 代理检测" ;;
-        6) bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/toy/ipqualitys.sh) ;;
+        6) bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/toy/ipqualitys.sh) ;;
         0) exit 0 ;;
         *)
             echo -e "${RED}输入错误，请重新选择${RESET}"

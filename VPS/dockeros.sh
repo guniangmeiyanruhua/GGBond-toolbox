@@ -11,10 +11,10 @@ fi
 
 case "$OS" in
     alpine)
-        bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Alpine/APDocker.sh)
+        bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Alpine/APDocker.sh)
         ;;
     *)
         # 通用 Linux 环境 (Debian/Ubuntu/CentOS/Arch等)
-        bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Docker/Docker.sh)
+        bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Docker/Docker.sh)
         ;;
 esac

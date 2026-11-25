@@ -12,7 +12,7 @@ export HOME=/root
 
 INSTALL_DIR="/opt/caadybackup"
 LOCAL_SCRIPT="$INSTALL_DIR/caadybackup.sh"
-REMOTE_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/caadybackup.sh"
+REMOTE_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/caadybackup.sh"
 
 if [[ "$0" != "$LOCAL_SCRIPT" ]]; then
     mkdir -p "$INSTALL_DIR"
