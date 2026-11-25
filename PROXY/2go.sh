@@ -664,7 +664,7 @@ uninstall_xray() {
 create_shortcut() {
   cat <<EOF > "$WORK_DIR/2go.sh"
 #!/usr/bin/env bash
-bash <(curl -fsSL https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/2go.sh) \$1
+bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/2go.sh) \$1
 EOF
   chmod +x "$WORK_DIR/2go.sh"
   ln -sf "$WORK_DIR/2go.sh" /usr/bin/2go

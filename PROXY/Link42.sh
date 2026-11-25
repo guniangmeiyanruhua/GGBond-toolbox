@@ -262,7 +262,7 @@ menu() {
         6) restart_link42 ;;
         7) logs_link42 ;;
         8) show_info ;;
-        9) bash <(curl -sL https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/Link42-lg.sh) ;;
+        9) bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/Link42-lg.sh) ;;
         10) curl -fsSL https://get.pmman.tech/sh/link42-agent.sh | sudo sh -s -- uninstall ;;
         0) exit 0 ;;
         *) echo -e "${RED}无效选项${RESET}" ;;

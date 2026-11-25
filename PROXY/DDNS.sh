@@ -71,7 +71,7 @@ back_to_menu() {
 # 开始安装DDNS
 install_ddns(){
     if [ ! -f "/usr/bin/ddns" ]; then
-        curl -o /usr/bin/ddns  https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/DDNS.sh && chmod +x /usr/bin/ddns
+        curl -o /usr/bin/ddns  https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/DDNS.sh && chmod +x /usr/bin/ddns
     fi
     mkdir -p /etc/DDNS
     cat <<'EOF' > /etc/DDNS/DDNS

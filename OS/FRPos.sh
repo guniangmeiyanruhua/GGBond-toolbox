@@ -58,14 +58,14 @@ fetch_and_run() {
 case "$OS" in
     alpine)
         # 执行 Alpine 适配版脚本
-        fetch_and_run "https://raw.githubusercontent.com/sistarry/toolbox/main/Alpine/APFRPx.sh"
+        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Alpine/APFRPx.sh"
         ;;
     debian|ubuntu|centos|rocky|almalinux|fedora)
         # 执行原版脚本
-        fetch_and_run "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/FRPx.sh"
+        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/FRPx.sh"
         ;;
     *)  
         # 未能识别或暂不支持您的系统
-        fetch_and_run "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/FRPx.sh"
+        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/FRPx.sh"
         ;;
 esac

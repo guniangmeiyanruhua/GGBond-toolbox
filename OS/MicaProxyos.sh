@@ -60,10 +60,10 @@ fetch_and_run() {
 case "$OS" in
     alpine)
         # 执行 Alpine 适配版脚本
-        fetch_and_run "https://raw.githubusercontent.com/sistarry/toolbox/main/Alpine/APnext-socks5SS.sh"
+        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Alpine/APnext-socks5SS.sh"
         ;;
     debian|ubuntu|centos|rocky|almalinux|fedora|*)
         # 执行原版脚本
-        fetch_and_run "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/MicaProxy.sh"
+        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/MicaProxy.sh"
         ;;
 esac

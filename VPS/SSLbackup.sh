@@ -21,9 +21,9 @@ GITHUB_PROXIES=(
     'https://ghproxy.lvedong.eu.org/'
 )
 
-NGINX_URL="https://raw.githubusercontent.com/sistarry/toolbox/main/VPS/nginxbackup.sh"
-CADDY_URL="https://raw.githubusercontent.com/sistarry/toolbox/main/VPS/caadybackup.sh"
-ACME_URL="https://raw.githubusercontent.com/sistarry/toolbox/main/VPS/acmebackup.sh"
+NGINX_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/nginxbackup.sh"
+CADDY_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/caadybackup.sh"
+ACME_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/acmebackup.sh"
 
 # ==========================================
 # 工具函数

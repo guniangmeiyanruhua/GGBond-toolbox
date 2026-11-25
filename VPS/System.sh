@@ -21,7 +21,7 @@ GITHUB_PROXIES=(
     'https://ghproxy.lvedong.eu.org/'
 )
 
-BASE_URL="https://raw.githubusercontent.com/sistarry/toolbox/main/VPS"
+BASE_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS"
 
 # ==========================================
 # 工具函数

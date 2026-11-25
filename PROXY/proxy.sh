@@ -13,7 +13,7 @@ BOLD="\033[1m"
 ORANGE='\033[38;5;208m'
 
 SCRIPT_PATH="/etc/proxy.sh"
-SCRIPT_URL="https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/proxy.sh"
+SCRIPT_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/proxy.sh"
 BIN_LINK_DIR="/usr/local/bin"
 
 
@@ -263,30 +263,30 @@ while true; do
     read_submenu || return
 
     case "$sub" in
-        01) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/SSRustos.sh")) ;;
-        02) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/SSShadowTLSos.sh")) ;;
-        03) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/Snellos.sh")) ;;
-        04) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/SnellShadowTLSos.sh")) ;;
-        05) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/VlessRealityos.sh")) ;;
-        06) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/Hy2os.sh")) ;;
-        07) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/AnyTLSos.sh")) ;;
-        08) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/AnyRealityos.sh")) ;;
-        09) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/Tuicv5os.sh")) ;;
-        10) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/MTProtoos.sh")) ;;
-        11) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/MTProtoDS.sh")) ;;
-        12) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/nextsocks5os.sh")) ;;
-        13) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/Xary-HTTPos.sh")) ;;
-        14) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/NaiveProxyos.sh")) ;;
-        15) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/2go.sh")) ;;
-        16) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/Vmesswsos.sh")) ;;
-        17) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/Vlesshttpupgradeos.sh")) ;;
-        18) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/Vlesswstlsos.sh")) ;;
-        19) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/VlessRealityxhttpos.sh")) ;;
-        20) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/VlessEncryptionos.sh")) ;;
-        21) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/VlessEncryptionRealityos.sh")) ;;
-        22) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/Snellv6os.sh")) ;;
-        23) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/Snellv6ShadowTLSos.sh")) ;;
-        24) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/WebProxy.sh")) ;;
+        01) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/SSRustos.sh")) ;;
+        02) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/SSShadowTLSos.sh")) ;;
+        03) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Snellos.sh")) ;;
+        04) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/SnellShadowTLSos.sh")) ;;
+        05) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/VlessRealityos.sh")) ;;
+        06) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Hy2os.sh")) ;;
+        07) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/AnyTLSos.sh")) ;;
+        08) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/AnyRealityos.sh")) ;;
+        09) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Tuicv5os.sh")) ;;
+        10) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/MTProtoos.sh")) ;;
+        11) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/MTProtoDS.sh")) ;;
+        12) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/nextsocks5os.sh")) ;;
+        13) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Xary-HTTPos.sh")) ;;
+        14) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/NaiveProxyos.sh")) ;;
+        15) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/2go.sh")) ;;
+        16) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Vmesswsos.sh")) ;;
+        17) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Vlesshttpupgradeos.sh")) ;;
+        18) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Vlesswstlsos.sh")) ;;
+        19) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/VlessRealityxhttpos.sh")) ;;
+        20) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/VlessEncryptionos.sh")) ;;
+        21) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/VlessEncryptionRealityos.sh")) ;;
+        22) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Snellv6os.sh")) ;;
+        23) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Snellv6ShadowTLSos.sh")) ;;
+        24) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/WebProxy.sh")) ;;
         *) echo -e "${RED}无效选项${RESET}"; sleep 1 ;;
     esac
 done
@@ -354,23 +354,23 @@ while true; do
     read_submenu || return
 
     case "$sub" in
-        01) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/3xuios.sh")) ; pause_return ;;
+        01) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/3xuios.sh")) ; pause_return ;;
         02) bash <(curl -Ls https://s-ui.alireza0.dev/install.sh) ; pause_return ;;
-        03) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/Xboard.sh")) ;;
-        04) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/PPanel.sh")) ;;
-        05) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/Remnawave.sh")) ;;
-        06) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/MiaoMiaoWuX.sh")) ;;
+        03) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/Xboard.sh")) ;;
+        04) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/PPanel.sh")) ;;
+        05) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/Remnawave.sh")) ;;
+        06) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/MiaoMiaoWuX.sh")) ;;
         07) bash <(curl -Ls https://raw.githubusercontent.com/JackHONGhy/xrayr-automated-install-script/master/install.sh) ; pause_return ;;
-        08) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/Conflux.sh")) ;;
-        09) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/OneBoard.sh")) ;;
+        08) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/Conflux.sh")) ;;
+        09) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/OneBoard.sh")) ;;
         10) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/baoweise-bot/aimili-vpngate/main/install.sh")) ; pause_return ;;
-        11) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/MiGate.sh")) ;;
+        11) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/MiGate.sh")) ;;
         12) bash <(curl -Ls https://raw.githubusercontent.com/Hhz0823/1s-ui/main/install.sh) ; pause_return ;;
         13) bash <(curl -Ls https://raw.githubusercontent.com/shenaba/2s-ui/main/install.sh) ; pause_return ;;
         14) bash <(curl -fsSL https://raw.githubusercontent.com/kazeyukiro/3m-ui/main/scripts/install.sh) ; pause_return ;;
-        15) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/Nexora-VPN.sh")) ;;
+        15) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/Nexora-VPN.sh")) ;;
         16) bash <(curl -Ls https://raw.githubusercontent.com/RomanovCaesar/m-ui/main/install.sh) ; pause_return ;;
-        17) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/mihob.sh")) ;;
+        17) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/mihob.sh")) ;;
         0) return ;;
         *) echo -e "${RED}无效选项${RESET}"; sleep 1 ;;
     esac
@@ -408,16 +408,16 @@ while true; do
         01) wget --no-check-certificate -O gost.sh $(proxy_url "https://raw.githubusercontent.com/qqrrooty/EZgost/main/gost.sh") && chmod +x gost.sh && ./gost.sh ; pause_return ;;
         02) wget -qO- $(proxy_url "https://raw.githubusercontent.com/zywe03/realm-xwPF/main/xwPF.sh") | sudo bash -s install ; pause_return ;;
         03) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/hiapb/hia-realm/main/install.sh")) ;;
-        04) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/Zelay.sh")) ;;
-        05) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/RelayPanel.sh")) ;;
-        06) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/ForwardX.sh")) ;;
+        04) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/Zelay.sh")) ;;
+        05) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/RelayPanel.sh")) ;;
+        06) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/ForwardX.sh")) ;;
         07) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/xjetry/nft-forward/main/install.sh")) ; pause_return ;;
-        08) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/flux-panel.sh")) ;;
-        09) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/flvx-panel.sh")) ;;
-        10) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/NodePassDash.sh")) ;;
-        11) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/ForwardXplus.sh")) ;;
+        08) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/flux-panel.sh")) ;;
+        09) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/flvx-panel.sh")) ;;
+        10) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/NodePassDash.sh")) ;;
+        11) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/ForwardXplus.sh")) ;;
         12) bash <(curl -fsSL https://raw.githubusercontent.com/baiduxc/gost-webui/main/install.sh) ; pause_return ;;
-        13) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/FLVX29.sh")) ;;
+        13) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/FLVX29.sh")) ;;
         0) return ;;
         *) echo -e "${RED}无效选项${RESET}"; sleep 1 ;;
     esac
@@ -445,11 +445,11 @@ while true; do
   
 
     case "$sub" in
-        01) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/WireGuard.sh")) ;;
-        02) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/wg-easy.sh")) ;;
-        03) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/Link42.sh")) ;;
-        04) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/EasyTierD.sh")) ;;
-        05) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/frp-Panel.sh")) ;;
+        01) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/WireGuard.sh")) ;;
+        02) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/wg-easy.sh")) ;;
+        03) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/Link42.sh")) ;;
+        04) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/EasyTierD.sh")) ;;
+        05) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/frp-Panel.sh")) ;;
         0) return ;;
         *) echo -e "${RED}无效选项${RESET}"; sleep 1 ;;
     esac
@@ -485,13 +485,13 @@ while true; do
         02) bash <(curl -fsSL "$(proxy_url "https://raw.githubusercontent.com/Eric86777/vps-tcp-tune/main/install-alias.sh?")$(date +%s)") ; pause_return ;;
         03) wget http://sh.nekoneko.cloud/tools.sh -O tools.sh && bash tools.sh ; pause_return ;;
         04) wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh ;;
-        05) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/MicroWARP.sh")) ;;
-        06) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/WARP-Rustos.sh")) ;;
-        07) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/HES.sh")) ;;
-        08) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/Tun2Socksos.sh")) ;;
-        09) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/Redsocksos.sh")) ;;
+        05) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/MicroWARP.sh")) ;;
+        06) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/WARP-Rustos.sh")) ;;
+        07) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/HES.sh")) ;;
+        08) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Tun2Socksos.sh")) ;;
+        09) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Redsocksos.sh")) ;;
         10) curl -fsSL $(proxy_url "https://raw.githubusercontent.com/Henry00123/china_blocker/main/china_blocker.sh") -o china_blocker.sh && chmod +x china_blocker.sh && sudo ./china_blocker.sh ;;
-        11) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/Realmtimeout.sh")) ;;
+        11) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/Realmtimeout.sh")) ;;
         0) return ;;
         *) echo -e "${RED}无效选项${RESET}"; sleep 1 ;;
     esac
@@ -556,21 +556,21 @@ while true; do
     read_submenu || return
 
     case "$sub" in
-        01) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/SSRust2022D.sh")) ; pause_return ;;
-        02) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/SSRust-tlsD.sh")) ; pause_return ;;
-        03) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/Xray-RealityD.sh")) ; pause_return ;;
-        04) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/snell-serverD.sh")) ; pause_return ;;
-        05) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/snelltls-serverD.sh")) ; pause_return ;;
-        06) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/Xray-VmesswstlsD.sh")) ; pause_return ;;
-        07) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/AnyTLSD.sh")) ; pause_return ;;
-        08) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/hysteria2D.sh")) ; pause_return ;;
-        09) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/Singbox-TUICv5D.sh")) ; pause_return ;;
-        10) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/MTProtoD.sh")) ; pause_return ;;
-        11) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/Xray-Socks5D.sh")) ; pause_return ;;
-        12) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/Xray-VmesswsD.sh")) ; pause_return ;;
-        13) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/Xray-RealityxhttpD.sh")) ; pause_return ;;
-        14) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/Singbox-AnyRealityD.sh")) ; pause_return ;;
-        15) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/Xray-VlesshttpD.sh")) ; pause_return ;;
+        01) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/SSRust2022D.sh")) ; pause_return ;;
+        02) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/SSRust-tlsD.sh")) ; pause_return ;;
+        03) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/Xray-RealityD.sh")) ; pause_return ;;
+        04) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/snell-serverD.sh")) ; pause_return ;;
+        05) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/snelltls-serverD.sh")) ; pause_return ;;
+        06) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/Xray-VmesswstlsD.sh")) ; pause_return ;;
+        07) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/AnyTLSD.sh")) ; pause_return ;;
+        08) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/hysteria2D.sh")) ; pause_return ;;
+        09) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/Singbox-TUICv5D.sh")) ; pause_return ;;
+        10) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/MTProtoD.sh")) ; pause_return ;;
+        11) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/Xray-Socks5D.sh")) ; pause_return ;;
+        12) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/Xray-VmesswsD.sh")) ; pause_return ;;
+        13) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/Xray-RealityxhttpD.sh")) ; pause_return ;;
+        14) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/Singbox-AnyRealityD.sh")) ; pause_return ;;
+        15) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/Xray-VlesshttpD.sh")) ; pause_return ;;
         0) return ;;
         *) echo -e "${RED}无效选项${RESET}"; sleep 1 ;;
     esac
@@ -607,21 +607,21 @@ while true; do
     read_submenu || return
 
     case "$sub" in
-        01) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/SSRust2022GLD.sh")) ; pause_return ;;
-        02) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/SSRust-tlsGLD.sh")) ; pause_return ;;
-        03) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/Xray-RealityGLD.sh")) ; pause_return ;;
-        04) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/snell-serverGLD.sh")) ; pause_return ;;
-        05) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/snelltls-serverGLD.sh")) ; pause_return ;;
-        06) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/Xray-VmesswstlsGLD.sh")) ; pause_return ;;
-        07) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/AnyTLSGLD.sh")) ; pause_return ;;
-        08) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/hysteria2GLD.sh")) ; pause_return ;;
-        09) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/Singbox-TUICv5GLD.sh")) ; pause_return ;;
-        10) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/MTProtoGLD.sh")) ; pause_return ;;
-        11) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/Xray-Socks5GLD.sh")) ; pause_return ;;
-        12) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/Xray-VmesswsGLD.sh")) ; pause_return ;;
-        13) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/Xray-RealityxhttpGLD.sh")) ; pause_return ;;
-        14) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/Singbox-AnyRealityGLD.sh")) ; pause_return ;;
-        15) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/Dockerproxy/Xray-VlesshttpGLD.sh")) ; pause_return ;;
+        01) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/SSRust2022GLD.sh")) ; pause_return ;;
+        02) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/SSRust-tlsGLD.sh")) ; pause_return ;;
+        03) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/Xray-RealityGLD.sh")) ; pause_return ;;
+        04) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/snell-serverGLD.sh")) ; pause_return ;;
+        05) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/snelltls-serverGLD.sh")) ; pause_return ;;
+        06) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/Xray-VmesswstlsGLD.sh")) ; pause_return ;;
+        07) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/AnyTLSGLD.sh")) ; pause_return ;;
+        08) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/hysteria2GLD.sh")) ; pause_return ;;
+        09) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/Singbox-TUICv5GLD.sh")) ; pause_return ;;
+        10) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/MTProtoGLD.sh")) ; pause_return ;;
+        11) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/Xray-Socks5GLD.sh")) ; pause_return ;;
+        12) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/Xray-VmesswsGLD.sh")) ; pause_return ;;
+        13) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/Xray-RealityxhttpGLD.sh")) ; pause_return ;;
+        14) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/Singbox-AnyRealityGLD.sh")) ; pause_return ;;
+        15) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Dockerproxy/Xray-VlesshttpGLD.sh")) ; pause_return ;;
         0) return ;;
         *) echo -e "${RED}无效选项${RESET}"; sleep 1 ;;
     esac
@@ -652,12 +652,12 @@ while true; do
    
 
     case "$sub" in
-        01) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/IP-Sentinel.sh")) ;;
-        02) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/TrafficCop.sh")) ;;
+        01) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/IP-Sentinel.sh")) ;;
+        02) bash <(curl -fsSL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/TrafficCop.sh")) ;;
         03) wget -O port-traffic-dog.sh $(proxy_url "https://raw.githubusercontent.com/zywe03/realm-xwPF/main/port-traffic-dog.sh") && chmod +x port-traffic-dog.sh && ./port-traffic-dog.sh ;;
-        04) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/S-UITrafficReset.sh")) ;;
-        05) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/OS/vnstattgos.sh")) ;;
-        06) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/CFDDNSManager.sh")) ;;
+        04) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/S-UITrafficReset.sh")) ;;
+        05) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/vnstattgos.sh")) ;;
+        06) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/CFDDNSManager.sh")) ;;
         07) wget -O trafficcop-lite.sh $(proxy_url "https://raw.githubusercontent.com/duya07/trafficcop-lite/main/trafficcop-lite.sh") && chmod +x trafficcop-lite.sh && ./trafficcop-lite.sh --install && sudo ntc ;;
         0) return ;;
         *) echo -e "${RED}无效选项${RESET}"; sleep 1 ;;
@@ -1603,19 +1603,19 @@ while true; do
     read_submenu || return
 
     case "$sub" in
-        01) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/uninstallXray.sh")) ; pause_return ;;
-        02) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/uninstallSingbox.sh")) ; pause_return ;;
-        03) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/uninstallMihomo.sh")) ; pause_return ;;
-        04) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/uninstallRealm.sh")) ; pause_return ;;
-        05) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/uninstallGost.sh")) ; pause_return ;;
-        06) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/uninstallEasyTier.sh")) ; pause_return ;;
-        07) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/uninstallFRP.sh")) ; pause_return ;;
-        08) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/uninstallNginx.sh")) ; pause_return ;;
-        09) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/uninstallCaddy.sh")) ; pause_return ;;
-        10) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/uninstallAcme.sh")) ; pause_return ;;
-        11) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/uninstallCFWARP.sh")) ; pause_return ;;
-        12) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/uninstallCFArgo.sh")) ; pause_return ;;
-        13) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/sistarry/toolbox/main/PROXY/uninstallDocker.sh")) ; pause_return ;;
+        01) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/uninstallXray.sh")) ; pause_return ;;
+        02) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/uninstallSingbox.sh")) ; pause_return ;;
+        03) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/uninstallMihomo.sh")) ; pause_return ;;
+        04) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/uninstallRealm.sh")) ; pause_return ;;
+        05) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/uninstallGost.sh")) ; pause_return ;;
+        06) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/uninstallEasyTier.sh")) ; pause_return ;;
+        07) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/uninstallFRP.sh")) ; pause_return ;;
+        08) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/uninstallNginx.sh")) ; pause_return ;;
+        09) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/uninstallCaddy.sh")) ; pause_return ;;
+        10) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/uninstallAcme.sh")) ; pause_return ;;
+        11) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/uninstallCFWARP.sh")) ; pause_return ;;
+        12) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/uninstallCFArgo.sh")) ; pause_return ;;
+        13) bash <(curl -sL $(proxy_url "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/uninstallDocker.sh")) ; pause_return ;;
         0) return ;;
         *) echo -e "${RED}无效选项${RESET}"; sleep 1 ;;
     esac
