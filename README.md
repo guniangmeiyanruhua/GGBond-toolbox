@@ -25,7 +25,13 @@
 
 ## 运行
 
-一键拉取运行（免下载）：
+一键拉取运行（自定义域名，免下载）：
+
+```bash
+bash <(curl -fsSL https://w.cnm.xx.kg)
+```
+
+备用（GitHub 原始地址）：
 
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/gg-toolbox.sh)
