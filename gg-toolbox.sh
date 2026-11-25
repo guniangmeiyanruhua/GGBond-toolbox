@@ -2,7 +2,7 @@
 # GG Toolbox (精简版) - 基于 sistarry/toolbox 裁剪
 # 原仓库: https://github.com/sistarry/toolbox
 # 只保留: m1 系统设置 / m2 网络代理 / m3 网络检测 / m4 Docker管理 / m6 证书管理 / m7 系统管理
-# 子脚本拉取地址已改为本仓库 guniangmeiyanruhua/gg-toolbox (VPS/OS/PROXY/Docker 子目录每周同步上游)
+# 子脚本拉取地址已改为本仓库 guniangmeiyanruhua/gg-toolbox (VPS/OS/PROXY/Docker 子目录每天对比同步上游)
 # m10 更新卸载已适配: 88 从本仓库更新 gg-toolbox.sh, 77 用本仓库 tool/toolboxupdates.sh
 # VPS Toolbox
 # 功能：
@@ -348,11 +348,10 @@ SUB_MENU[3]="42 NodeQuality|43 融合怪测试|44 YABS测试|45 网络质量体�
 SUB_MENU[4]="56 Docker管理|57 DockerCompose管理|58 DockerCompose备份恢复|59 DockerCompose自动更新"
 
 SUB_MENU[5]="67 NGINXV4反代✨|68 NGINXV6反代|69 Caddy反代|70 Acme申请证书|71 Lucky反代"
-SUB_MENU[7]="77 自动更新|88 更新工具箱|99 卸载工具箱"
 SUB_MENU[6]="72 系统清理|73 重装系统|74 系统组件|75 开发环境|76 工作区管理|78 防火墙管理|79 Fail2ban|80 系统监控|81 添加SWAP|82 DNS管理|83 定时任务"
 
 
-
+SUB_MENU[7]="77 自动更新|88 更新工具箱|99 卸载工具箱"
 
 # 显示一级菜单
 show_main_menu() {

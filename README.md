@@ -21,7 +21,7 @@
 - `PROXY/`（113 个）
 - `Docker/`（232 个）
 
-同步方式：每周由 Muse 的定时任务检查上游 sistarry/toolbox 这 4 个子目录，有更新就把新版文件推到本仓库并汇报；子目录文件保持上游原样不改写，因此子脚本内部写死的、指向原仓库其他目录（如 Alpine、Panel、AI 等未复制目录）的调用仍走原仓库。
+同步方式：每天由 Muse 的定时任务对比上游 sistarry/toolbox：这 4 个子目录有更新就把新版文件推到本仓库并汇报；主脚本 gg-toolbox.sh 每天用 ~/workspace/gg-toolbox/build_gg_toolbox.py 从上游最新主脚本按裁剪规则（只留 m1/m2/m3/m4/m6/m7/m10、地址改本仓库、m10 用适配版）重新生成，有变化就覆盖本仓库的 gg-toolbox.sh 并汇报；子目录文件保持上游原样不改写，因此子脚本内部写死的、指向原仓库其他目录（如 Alpine、Panel、AI 等未复制目录）的调用仍走原仓库。
 
 ## 运行
 
