@@ -1,6 +1,6 @@
 # GG Toolbox 精简版
 
-基于 [sistarry/toolbox](https://github.com/sistarry/toolbox) 的 `tool/vps-toolbox.sh` 裁剪复制，只保留 GG 需要的 6 个一级菜单，子功能执行代码与原仓库保持一致（运行时仍从原仓库拉取对应子脚本）：
+基于 [sistarry/toolbox](https://github.com/sistarry/toolbox) 的 `tool/vps-toolbox.sh` 裁剪复制，只保留 GG 需要的 6 个一级菜单，子功能执行代码与原仓库保持一致。主脚本的 64 个子脚本入口已改为拉取本仓库的子目录副本（见下）：
 
 - **m1 系统设置**（编号 1-19）：更新系统、系统信息、修改 root 密码、root 登录管理、修改 SSH 端口、修改时区、时间同步、切换 v4/V6、开放所有端口、更换系统源、DD Debian13 / Windows、NAT 重装、DD 飞牛、修改语言、修改主机名、DNS 优化、一键优化、VPS 重启
 - **m2 网络代理**（编号 20-41）：代理工具箱、FRP、EasyTier、ShellCrash、CF WARP、Tcpfit、BBR+TCP 调参、Socks5/HTTP、VLESS Reality、Snell、Shadowsocks、VLESS Encryption、Hysteria2、Xray-Argo、AnyTLS、nftables、Realm、转发面板、DDNS、流媒体 DNS 解锁、流量狗、流量监控
@@ -10,6 +10,17 @@
 - **m7 系统管理**（编号 72-76、78-83，原一级菜单 7）：系统清理、重装系统、系统组件、开发环境、工作区管理、防火墙管理、Fail2ban、系统监控、添加 SWAP、DNS 管理、定时任务
 
 主菜单在本精简版中重新排为 01-06 显示，子菜单编号保持原编号不变，避免与原脚本对照时错位。
+
+## 子目录副本与上游同步
+
+本仓库包含上游 4 个子目录的完整副本，共 502 个文件，主脚本的子脚本入口指向本仓库：
+
+- `VPS/`（93 个，上游提交 a29f2f5 时点）
+- `OS/`（64 个）
+- `PROXY/`（113 个）
+- `Docker/`（232 个）
+
+同步方式：每周由 Muse 的定时任务检查上游 sistarry/toolbox 这 4 个子目录，有更新就把新版文件推到本仓库并汇报；子目录文件保持上游原样不改写，因此子脚本内部写死的、指向原仓库其他目录（如 Alpine、Panel、AI 等未复制目录）的调用仍走原仓库。
 
 ## 运行
 
