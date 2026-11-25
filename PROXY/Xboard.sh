@@ -265,9 +265,9 @@ menu() {
         6) restart_utils ;;
         7) logs_utils ;;
         8) show_info ;;
-        9) bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/XboardNode.sh) ;;
-        10) bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/mini-sb-agent.sh) ;;
-        11) bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/XboardNodeDS.sh) ;;
+        9) bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/XboardNode.sh) ;;
+        10) bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/mini-sb-agent.sh) ;;
+        11) bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/XboardNodeDS.sh) ;;
         0) exit 0 ;;
         *) echo -e "${RED}无效选项${RESET}" ;;
     esac

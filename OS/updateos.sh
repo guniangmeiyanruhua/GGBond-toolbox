@@ -20,8 +20,8 @@ fi
 if [ "$IS_CN" = true ]; then
     
     # 执行国内加速安装
-    bash <(curl -sL https://v6.gh-proxy.org/https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/CN/toolupdate.sh)
+    bash <(curl -sL https://v6.gh-proxy.org/https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/CN/toolupdate.sh)
 else
     # 执行官方安装
-    bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/tool/update.sh)
+    bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/tool/update.sh)
 fi

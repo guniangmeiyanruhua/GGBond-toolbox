@@ -61,10 +61,10 @@ fetch_and_run() {
 case "$OS" in
     alpine)
         # 执行 Alpine 适配版脚本
-        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Alpine/APiptables.sh"
+        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Alpine/APiptables.sh"
         ;;
     debian|ubuntu|centos|rocky|almalinux|fedora|*)
         # 执行原版脚本
-        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/nftablesx.sh"
+        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/nftablesx.sh"
         ;;
 esac

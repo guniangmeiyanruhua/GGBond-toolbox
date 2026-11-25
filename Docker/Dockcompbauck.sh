@@ -86,7 +86,7 @@ download_script() {
 # ================== 首次运行下载远程脚本 ==================
 if [[ ! -f "$REMOTE_SCRIPT_PATH" ]]; then
     # 替换为代理轮询下载
-    if ! download_script "raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Docker/Dockcompbauck.sh" "$REMOTE_SCRIPT_PATH"; then
+    if ! download_script "raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Docker/Dockcompbauck.sh" "$REMOTE_SCRIPT_PATH"; then
         echo -e "${RED}❌ 安装失败，请检查网络${RESET}"
         exit 1
     fi

@@ -567,8 +567,8 @@ menu() {
         7) logs_remnawave ;;
         8) show_info ;;
         9) configure_nginx_proxy ;;
-        10) bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/SubscriptionPage.sh) ;;
-        11) bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/RemnawaveNodeLiteos.sh) ;;
+        10) bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/SubscriptionPage.sh) ;;
+        11) bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/RemnawaveNodeLiteos.sh) ;;
         0) exit 0 ;;
         *) echo -e "${RED}无效选项${RESET}" ;;
     esac

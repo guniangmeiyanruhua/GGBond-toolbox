@@ -668,7 +668,7 @@ auto_localize_and_link() {
     
     if [[ ! -f "${LOCAL_SCRIPT_PATH}" ]]; then
         local download_success=false
-        local base_url="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Alpine/APiptables.sh"
+        local base_url="https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Alpine/APiptables.sh"
         
         
         # 遍历代理列表

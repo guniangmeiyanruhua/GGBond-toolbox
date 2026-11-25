@@ -80,13 +80,13 @@ while true; do
 
     case $choice in
         1|01)
-            download_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/frp-panel-maste.sh"
+            download_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/frp-panel-maste.sh"
             ;;
         2|02)
-            download_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/frp-panel-server.sh"
+            download_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/frp-panel-server.sh"
             ;;
         3|03)
-            download_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/frp-panel-client.sh"
+            download_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/frp-panel-client.sh"
             ;;
         0|00)
             exit 0

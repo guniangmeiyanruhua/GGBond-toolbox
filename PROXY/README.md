@@ -19,7 +19,7 @@
 
 ###  一键脚本
 ```bash
-bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/proxy.sh)
+bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/proxy.sh)
 ```
 
 

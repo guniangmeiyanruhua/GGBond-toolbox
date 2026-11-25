@@ -9,7 +9,7 @@ export HOME=${HOME:-/root}
 
 INSTALL_DIR="/opt/nginxbackup"
 LOCAL_SCRIPT="$INSTALL_DIR/nginxbackup.sh"
-REMOTE_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Alpine/APNginxbackup.sh"
+REMOTE_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Alpine/APNginxbackup.sh"
 
 # 检测并安装依赖（专门针对 Alpine 增强）
 if [ -f /etc/alpine-release ]; then

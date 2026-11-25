@@ -431,7 +431,7 @@ run_AriaNg() {
         'https://ghproxy.lvedong.eu.org/'
     )
     
-    local RAW_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Docker/AriaNg.sh"
+    local RAW_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Docker/AriaNg.sh"
     local TEMP_SCRIPT="/tmp/nginx_backup_restore_temp.sh"
     local success=false
 

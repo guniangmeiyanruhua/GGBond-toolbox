@@ -60,10 +60,10 @@ fetch_and_run() {
 case "$OS" in
     alpine)
         # 执行 Alpine 适配版脚本
-        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Alpine/APSB-AnyTLS.sh"
+        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Alpine/APSB-AnyTLS.sh"
         ;;
     debian|ubuntu|centos|rocky|almalinux|fedora|*)
         # 执行原版脚本
-        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/SB-AnyTLS.sh"
+        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/SB-AnyTLS.sh"
         ;;
 esac

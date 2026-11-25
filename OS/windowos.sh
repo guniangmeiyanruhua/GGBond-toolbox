@@ -54,14 +54,14 @@ fetch_and_run() {
 case "$ARCH" in
     aarch64|arm64)
         # 执行 ARM 适配版脚本
-        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/windowarm.sh"
+        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/windowarm.sh"
         ;;
     x86_64|amd64)
         # 执行原版脚本
-        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/window.sh"
+        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/window.sh"
         ;;
     *)  
         # 未能识别的架构，默认尝试执行原版脚本
-        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/window.sh"
+        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/window.sh"
         ;;
 esac

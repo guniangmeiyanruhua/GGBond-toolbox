@@ -58,14 +58,14 @@ fetch_and_run() {
 case "$OS" in
     alpine)
         # 执行 Alpine 适配版脚本
-        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Alpine/APHy2S.sh"
+        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Alpine/APHy2S.sh"
         ;;
     debian|ubuntu|centos|rocky|almalinux|fedora)
         # 执行原版脚本
-        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/Hy2.sh"
+        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/Hy2.sh"
         ;;
     *)  
         # 未能识别或暂不支持您的系统
-        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/Hy2.sh"
+        fetch_and_run "https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/Hy2.sh"
         ;;
 esac

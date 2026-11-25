@@ -12,7 +12,7 @@ export HOME=/root
 #################################
 INSTALL_DIR="/opt/caadybackup"
 LOCAL_SCRIPT="$INSTALL_DIR/caadybackup.sh"
-REMOTE_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Alpine/APCaddybackup.sh"
+REMOTE_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Alpine/APCaddybackup.sh"
 
 # 环境依赖检测（针对 Alpine 精简环境进行动态补全）
 if [ -f /etc/alpine-release ]; then

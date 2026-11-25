@@ -15,7 +15,7 @@ ORANGE='\033[38;5;208m'
 # 脚本路径
 # =============================
 SCRIPT_PATH="/root/oracle.sh"
-SCRIPT_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Oracle/oracle.sh"
+SCRIPT_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Oracle/oracle.sh"
 BIN_LINK_DIR="/usr/local/bin"
 
 # =============================
@@ -47,11 +47,11 @@ menu() {
     read choice
     case $choice in
         1)  bash <(wget -qO- --no-check-certificate https://gitlab.com/spiritysdx/Oracle-server-keep-alive-script/-/raw/main/oalive.sh) && pause ;;
-        2)  bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Oracle/lookbusy.sh) && pause ;;
+        2)  bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Oracle/lookbusy.sh) && pause ;;
         3)  bash <(wget -qO- https://github.com/Yohann0617/oci-helper/releases/latest/download/sh_oci-helper_install.sh) && pause ;;
-        4)  bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Oracle/oci-start.sh) && pause ;;
-        5)  bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Oracle/RBot.sh) && pause ;;
-        6)  bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Oracle/CloudManager.sh) && pause ;;
+        4)  bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Oracle/oci-start.sh) && pause ;;
+        5)  bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Oracle/RBot.sh) && pause ;;
+        6)  bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Oracle/CloudManager.sh) && pause ;;
         7)  bash <(curl -sL https://ghfast.top/raw.githubusercontent.com/mark-floyd/oci-ping/main/oci-ping.sh) && pause ;;
         88)
             echo -e "${YELLOW}🔄 正在更新脚本...${RESET}"

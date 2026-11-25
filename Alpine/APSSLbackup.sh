@@ -21,9 +21,9 @@ GITHUB_PROXIES=(
     'https://ghproxy.lvedong.eu.org/'
 )
 
-NGINX_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Alpine/APNginxbackup.sh"
-CADDY_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Alpine/APCaddybackup.sh"
-ACME_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Alpine/APAcmebackup.sh"
+NGINX_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Alpine/APNginxbackup.sh"
+CADDY_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Alpine/APCaddybackup.sh"
+ACME_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Alpine/APAcmebackup.sh"
 
 # ==========================================
 # 工具函数

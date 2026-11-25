@@ -44,7 +44,7 @@ docker_one() {
 }
 
 docker_batch() {
-    bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/NAT/DockerLXCx.sh)
+    bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/NAT/DockerLXCx.sh)
 }
 
 docker_cleanup() {

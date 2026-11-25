@@ -8,7 +8,7 @@ set -e
 GH_PROXY="https://v6.gh-proxy.org/"
 ROOT="/root"
 SCRIPT_PATH="$ROOT/toolboxupdate.sh"
-SCRIPT_URL="https://v6.gh-proxy.org/https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/CN/toolupdate.sh"
+SCRIPT_URL="https://v6.gh-proxy.org/https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/CN/toolupdate.sh"
 CONF="/etc/toolbox-update.conf"
 LOG_FILE="/var/log/toolbox-update.log"
 CRON_TAG="# toolbox-auto-update"
@@ -103,22 +103,22 @@ run_update() {
 
     # 更新各脚本
     update_one "vps-toolbox" "vps-toolbox.sh" \
-    "${GH_PROXY}https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/tool/vps-toolbox.sh"
+    "${GH_PROXY}https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/tool/vps-toolbox.sh"
 
     update_one "proxy" "proxy.sh" \
-    "${GH_PROXY}https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/PROXY/proxy.sh"
+    "${GH_PROXY}https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/proxy.sh"
 
     update_one "oracle" "oracle.sh" \
-    "${GH_PROXY}https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Oracle/oracle.sh"
+    "${GH_PROXY}https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Oracle/oracle.sh"
 
     update_one "store" "store.sh" \
-    "${GH_PROXY}https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Docker/Store.sh"
+    "${GH_PROXY}https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Docker/Store.sh"
 
     update_one "panel" "panel.sh" \
-    "${GH_PROXY}https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Panel/panel.sh"
+    "${GH_PROXY}https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Panel/panel.sh"
 
     update_one "nat" "nat.sh" \
-    "${GH_PROXY}https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/toy/NAT.sh"
+    "${GH_PROXY}https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/toy/NAT.sh"
 
     if [ ${#UPDATED_LIST[@]} -gt 0 ]; then
         MSG="🚀 脚本已更新

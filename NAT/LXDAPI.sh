@@ -11,7 +11,7 @@ API_UPDATE="https://raw.githubusercontent.com/xkatld/lxdapi-web-server/refs/head
 STORAGE_POOL="https://raw.githubusercontent.com/xkatld/lxdapi-web-server/refs/heads/main-stable/Shell/storage_pool.sh"
 IMAGE_IMPORT="https://raw.githubusercontent.com/xkatld/lxdapi-web-server/refs/heads/main-stable/Shell/image_import.sh"
 IMAGE_ADD="https://raw.githubusercontent.com/xkatld/zjmf-lxd-server/refs/heads/main/install/lxdimages.sh"
-IMAGE_XX="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/NAT/LXDAPIX.sh"
+IMAGE_XX="https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/NAT/LXDAPIX.sh"
 
 run() {
     url=$1

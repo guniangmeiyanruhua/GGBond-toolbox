@@ -51,12 +51,12 @@ menu() {
             ;;
         6)
             echo -e "${GREEN}正在开设 KVM 小鸡...${RESET}"
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/NAT/PVEKVM.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/NAT/PVEKVM.sh)
             pause
             ;;
         7)
             echo -e "${GREEN}正在开设 LXC 小鸡...${RESET}"
-            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/NAT/PVELXC.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/NAT/PVELXC.sh)
             pause
             ;;
         0)

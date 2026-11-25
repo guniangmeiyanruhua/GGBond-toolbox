@@ -8,7 +8,7 @@ export HOME=/root
 
 INSTALL_DIR="/opt/acmebackup"
 LOCAL_SCRIPT="$INSTALL_DIR/acmebackup.sh"
-REMOTE_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Alpine/APAcmebackup.sh"
+REMOTE_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/Alpine/APAcmebackup.sh"
 
 # Alpine 环境依赖检查与自动提示
 if [ -f /etc/alpine-release ]; then
