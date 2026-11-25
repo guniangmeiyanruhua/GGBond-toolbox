@@ -164,7 +164,7 @@ run_backup_restore() {
         'https://ghproxy.lvedong.eu.org/'
     )
     
-    local RAW_URL="https://raw.githubusercontent.com/sistarry/toolbox/main/VPS/clean-server.sh"
+    local RAW_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/clean-server.sh"
     local TEMP_SCRIPT="/tmp/nginx_backup_restore_temp.sh"
     local success=false
 

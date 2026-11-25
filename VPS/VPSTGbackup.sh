@@ -5,7 +5,7 @@
 
 BASE_DIR="/opt/vps_TGbackup"
 SCRIPT_PATH="$BASE_DIR/vps_TGbackup.sh"
-SCRIPT_URL="https://raw.githubusercontent.com/sistarry/toolbox/main/VPS/VPSTGbackup.sh"
+SCRIPT_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/VPSTGbackup.sh"
 CONFIG_FILE="$BASE_DIR/config"
 CRON_DIRS_FILE="$BASE_DIR/cron_dirs"
 TMP_DIR="$BASE_DIR/tmp"

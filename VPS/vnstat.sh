@@ -6,7 +6,7 @@ set -e
 CONFIG_FILE="/etc/vnstattg.conf"
 PORT_DB_FILE="/etc/vnstat_tg_ports.db"
 PERM_SCRIPT_PATH="/usr/local/bin/vnstat_mgr.sh"
-REMOTE_URL="https://raw.githubusercontent.com/sistarry/toolbox/main/VPS/vnstat.sh"
+REMOTE_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/vnstat.sh"
 
 TG_BOT_TOKEN=""
 TG_CHAT_ID=""
@@ -495,7 +495,7 @@ run_tgday() {
         'https://ghproxy.lvedong.eu.org/'
     )
     
-    local RAW_URL="https://raw.githubusercontent.com/sistarry/toolbox/main/OS/vnstattgos.sh"
+    local RAW_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/vnstattgos.sh"
     local TEMP_SCRIPT="/tmp/nginx_backup_restore_temp.sh"
     local success=false
 

@@ -11,7 +11,7 @@ RESET="\033[0m"
 #################################
 # 首次运行安装（下载到 /opt）
 #################################
-SCRIPT_URL="https://raw.githubusercontent.com/sistarry/toolbox/main/VPS/beifen.sh"
+SCRIPT_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/beifen.sh"
 SCRIPT_PATH="/opt/vpsbackup/vpsbackup.sh"
 
 if [ ! -f "$SCRIPT_PATH" ]; then

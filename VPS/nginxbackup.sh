@@ -12,7 +12,7 @@ export HOME=/root
 
 INSTALL_DIR="/opt/nginxbackup"
 LOCAL_SCRIPT="$INSTALL_DIR/nginxbackup.sh"
-REMOTE_URL="https://raw.githubusercontent.com/sistarry/toolbox/main/VPS/nginxbackup.sh"
+REMOTE_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/nginxbackup.sh"
 
 if [[ "$0" != "$LOCAL_SCRIPT" ]]; then
     mkdir -p "$INSTALL_DIR"

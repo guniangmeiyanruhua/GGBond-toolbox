@@ -8,7 +8,7 @@ export HOME=/root
 
 INSTALL_DIR="/opt/acmebackup"
 LOCAL_SCRIPT="$INSTALL_DIR/acmebackup.sh"
-REMOTE_URL="https://raw.githubusercontent.com/sistarry/toolbox/main/VPS/acmebackup.sh"
+REMOTE_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/acmebackup.sh"
 
 if [[ "$0" != "$LOCAL_SCRIPT" ]]; then
     mkdir -p "$INSTALL_DIR"
