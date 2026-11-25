@@ -33,8 +33,8 @@ bash gg-toolbox.sh
 
 ```bash
 cp gg-toolbox.sh /etc/gg-toolbox.sh && chmod +x /etc/gg-toolbox.sh
-ln -sf /etc/gg-toolbox.sh /usr/local/bin/m
-ln -sf /etc/gg-toolbox.sh /usr/local/bin/M
+ln -sf /etc/gg-toolbox.sh /usr/local/bin/n
+ln -sf /etc/gg-toolbox.sh /usr/local/bin/N
 ```
 
 ## 来源与许可

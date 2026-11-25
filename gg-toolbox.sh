@@ -8,14 +8,14 @@
 # 功能：
 # - 一级菜单加 ▶ 标识，字体绿色
 # - 二级菜单简洁显示，输入 1~99 都可执行
-# - 快捷指令 m / M 自动创建
+# - 快捷指令 n / N 自动创建
 # - 系统信息面板
 # - 彩色菜单和动态彩虹标题
 # - 完整安装/卸载
 
 INSTALL_PATH="/etc/gg-toolbox.sh"
-SHORTCUT_PATH="/usr/local/bin/m"
-SHORTCUT_PATH_UPPER="/usr/local/bin/M"
+SHORTCUT_PATH="/usr/local/bin/n"
+SHORTCUT_PATH_UPPER="/usr/local/bin/N"
 
 # 颜色
 green="\033[32m"
@@ -360,7 +360,7 @@ show_main_menu() {
     rainbow_animate "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
     # 标题文字改为纯黄色
-    echo -e "${ORANGE}📦 GG Toolbox 精简版工具箱${reset}${yellow}(原 m1/m2/m3/m4/m6/m7, 快捷指令:M/m)${reset} ${ORANGE}📦${reset}"
+    echo -e "${ORANGE}📦 GG Toolbox 精简版工具箱${reset}${yellow}(原 m1/m2/m3/m4/m6/m7, 快捷指令:N/n)${reset} ${ORANGE}📦${reset}"
 
     # 下边框保留彩虹效果
     rainbow_animate "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
