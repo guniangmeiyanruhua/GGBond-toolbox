@@ -29,6 +29,8 @@
 bash <(curl -fsSL https://w.cnm.xx.kg)
 ```
 
+一键拉取运行后会自动安装：脚本存到 `/etc/gg-toolbox.sh` 并创建 `n`/`N` 快捷指令（不覆盖原 toolbox 的 `m`/`M`），之后在任意终端输入 `n` 或 `N` 即可打开。已安装时不会重复安装；更新走菜单里的“更新工具箱”（88）。
+
 备用（GitHub 原始地址）：
 
 ```bash

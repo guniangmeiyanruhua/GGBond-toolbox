@@ -575,6 +575,43 @@ execute_choice() {
 }
 
 
+# 自安装: 任意 VPS 一键拉取运行时自动安装并创建 n/N 快捷指令 (GG 定制, 上游无此功能)
+ensure_shortcut() {
+    if [[ "${BASH_SOURCE[0]}" == "$INSTALL_PATH" ]]; then
+        if [[ ! -L "$SHORTCUT_PATH" || ! -L "$SHORTCUT_PATH_UPPER" ]]; then
+            if [[ $EUID -eq 0 ]]; then
+                ln -sf "$INSTALL_PATH" "$SHORTCUT_PATH" 2>/dev/null
+                ln -sf "$INSTALL_PATH" "$SHORTCUT_PATH_UPPER" 2>/dev/null
+            elif command -v sudo >/dev/null 2>&1; then
+                sudo ln -sf "$INSTALL_PATH" "$SHORTCUT_PATH" 2>/dev/null
+                sudo ln -sf "$INSTALL_PATH" "$SHORTCUT_PATH_UPPER" 2>/dev/null
+            fi
+        fi
+        return 0
+    fi
+    if [[ -f "$INSTALL_PATH" && -L "$SHORTCUT_PATH" && -L "$SHORTCUT_PATH_UPPER" ]]; then
+        return 0
+    fi
+    local SUDO=""
+    if [[ $EUID -ne 0 ]]; then
+        if command -v sudo >/dev/null 2>&1; then SUDO="sudo"; else return 0; fi
+    fi
+    if smart_curl "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/gg-toolbox.sh" > /tmp/gg-toolbox-install.sh 2>/dev/null && [[ -s /tmp/gg-toolbox-install.sh ]]; then
+        $SUDO cp /tmp/gg-toolbox-install.sh "$INSTALL_PATH" 2>/dev/null
+        $SUDO chmod +x "$INSTALL_PATH" 2>/dev/null
+        $SUDO ln -sf "$INSTALL_PATH" "$SHORTCUT_PATH" 2>/dev/null
+        $SUDO ln -sf "$INSTALL_PATH" "$SHORTCUT_PATH_UPPER" 2>/dev/null
+        rm -f /tmp/gg-toolbox-install.sh
+        if [[ -L "$SHORTCUT_PATH" ]]; then
+            echo -e "${green}已安装 GGBond的工具箱: 以后在终端输入 n 或 N 即可打开${reset}"
+            sleep 1
+        fi
+    else
+        rm -f /tmp/gg-toolbox-install.sh
+    fi
+}
+ensure_shortcut
+
 # 主循环
 while true; do
     show_main_menu
