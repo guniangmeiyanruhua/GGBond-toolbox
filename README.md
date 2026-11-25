@@ -25,8 +25,16 @@
 
 ## 运行
 
+一键拉取运行（免下载）：
+
 ```bash
-bash gg-toolbox.sh
+bash <(curl -fsSL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/gg-toolbox.sh)
+```
+
+或先下载再运行：
+
+```bash
+curl -fsSL -o gg-toolbox.sh https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/gg-toolbox.sh && bash gg-toolbox.sh
 ```
 
 安装到服务器后可自行软链接快捷键（会覆盖原 toolbox 的 m，请谨慎）：
