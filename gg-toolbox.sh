@@ -3,6 +3,7 @@
 # 原仓库: https://github.com/sistarry/toolbox
 # 只保留: m1 系统设置 / m2 网络代理 / m3 网络检测 / m4 Docker管理 / m6 证书管理 / m7 系统管理
 # 子脚本拉取地址已改为本仓库 guniangmeiyanruhua/gg-toolbox (VPS/OS/PROXY/Docker 子目录每周同步上游)
+# m10 更新卸载已适配: 88 从本仓库更新 gg-toolbox.sh, 77 用本仓库 tool/toolboxupdates.sh
 # VPS Toolbox
 # 功能：
 # - 一级菜单加 ▶ 标识，字体绿色
@@ -337,6 +338,7 @@ MAIN_MENU=(
     "Docker管理"
     "证书管理"
     "系统管理"
+    "更新卸载"
 )
 
 # 二级菜单（编号去掉前导零，显示时格式化为两位数）
@@ -346,6 +348,7 @@ SUB_MENU[3]="42 NodeQuality|43 融合怪测试|44 YABS测试|45 网络质量体�
 SUB_MENU[4]="56 Docker管理|57 DockerCompose管理|58 DockerCompose备份恢复|59 DockerCompose自动更新"
 
 SUB_MENU[5]="67 NGINXV4反代✨|68 NGINXV6反代|69 Caddy反代|70 Acme申请证书|71 Lucky反代"
+SUB_MENU[7]="77 自动更新|88 更新工具箱|99 卸载工具箱"
 SUB_MENU[6]="72 系统清理|73 重装系统|74 系统组件|75 开发环境|76 工作区管理|78 防火墙管理|79 Fail2ban|80 系统监控|81 添加SWAP|82 DNS管理|83 定时任务"
 
 
@@ -549,6 +552,35 @@ execute_choice() {
         83) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/crontab.sh) ;;
 
 
+        77) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/tool/toolboxupdates.sh) ;;
+        88)
+            echo -e "${yellow}正在更新工具箱...${reset}"
+            if ! smart_curl "https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/gg-toolbox.sh" > "$INSTALL_PATH"; then
+                echo -e "${red}更新失败，所有代理及直连均无法访问，请检查网络！${reset}"
+                return 1
+            fi
+            if [[ ! -s "$INSTALL_PATH" ]]; then
+                echo -e "${red}更新失败：下载的文件为空，已终止覆盖！${reset}"
+                return 1
+            fi
+            chmod +x "$INSTALL_PATH"
+            echo -e "${green}更新完成！${reset}"
+            exec bash "$INSTALL_PATH"
+            ;;
+        99)
+            echo -e "${yellow}正在卸载工具箱...${reset}"
+            remove_shortcut
+            if [[ -f "$INSTALL_PATH" ]]; then
+            rm -f "$INSTALL_PATH"
+            echo -e "${green}工具箱已删除${reset}"
+            fi
+            MARK_FILE="$HOME/.vpstoolbox"
+            if [[ -f "$MARK_FILE" ]]; then
+            rm -f "$MARK_FILE"
+            fi
+           echo -e "${red}卸载完成！${reset}"
+           exit 0
+           ;;
         0) exit 0 ;;
         *) echo -e "${red}无效选项${reset}"; return 1 ;;
     esac

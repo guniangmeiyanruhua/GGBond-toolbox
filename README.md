@@ -1,15 +1,16 @@
 # GG Toolbox 精简版
 
-基于 [sistarry/toolbox](https://github.com/sistarry/toolbox) 的 `tool/vps-toolbox.sh` 裁剪复制，只保留 GG 需要的 6 个一级菜单，子功能执行代码与原仓库保持一致。主脚本的 64 个子脚本入口已改为拉取本仓库的子目录副本（见下）：
+基于 [sistarry/toolbox](https://github.com/sistarry/toolbox) 的 `tool/vps-toolbox.sh` 裁剪复制，只保留 GG 需要的 7 个一级菜单，子功能执行代码与原仓库保持一致。主脚本的 64 个子脚本入口已改为拉取本仓库的子目录副本（见下）：
 
 - **m1 系统设置**（编号 1-19）：更新系统、系统信息、修改 root 密码、root 登录管理、修改 SSH 端口、修改时区、时间同步、切换 v4/V6、开放所有端口、更换系统源、DD Debian13 / Windows、NAT 重装、DD 飞牛、修改语言、修改主机名、DNS 优化、一键优化、VPS 重启
 - **m2 网络代理**（编号 20-41）：代理工具箱、FRP、EasyTier、ShellCrash、CF WARP、Tcpfit、BBR+TCP 调参、Socks5/HTTP、VLESS Reality、Snell、Shadowsocks、VLESS Encryption、Hysteria2、Xray-Argo、AnyTLS、nftables、Realm、转发面板、DDNS、流媒体 DNS 解锁、流量狗、流量监控
 - **m3 网络检测**（编号 42-55）：NodeQuality、融合怪测试、YABS 测试、网络质量体检、IP 质量体检、硬盘质量体检、TcpQuality、简单回程测试、完整路由检测、流媒体解锁、三网测速、网络 PING/DNS 检测、检查 25 端口开放、网络工具箱
 - **m4 Docker管理**（编号 56-59）：Docker 管理、DockerCompose 管理、DockerCompose 备份恢复、DockerCompose 自动更新
 - **m6 证书管理**（编号 67-71，原一级菜单 6）：NGINX v4 反代、NGINX v6 反代、Caddy 反代、Acme 申请证书、Lucky 反代
+- **m10 更新卸载**（编号 77、88、99，原一级菜单 10）：自动更新、更新工具箱、卸载工具箱。已适配 GG 版：88 从本仓库更新 gg-toolbox.sh 到 /etc/gg-toolbox.sh；77 使用本仓库 `tool/toolboxupdates.sh`（已把下载源改成本仓库、更新目标改成 gg-toolbox.sh）
 - **m7 系统管理**（编号 72-76、78-83，原一级菜单 7）：系统清理、重装系统、系统组件、开发环境、工作区管理、防火墙管理、Fail2ban、系统监控、添加 SWAP、DNS 管理、定时任务
 
-主菜单在本精简版中重新排为 01-06 显示，子菜单编号保持原编号不变，避免与原脚本对照时错位。
+主菜单在本精简版中重新排为 01-07 显示，子菜单编号保持原编号不变，避免与原脚本对照时错位。
 
 ## 子目录副本与上游同步
 
