@@ -1,7 +1,7 @@
 #!/bin/bash
 # GGBond的工具箱 - 基于 sistarry/toolbox 裁剪
 # 原仓库: https://github.com/sistarry/toolbox
-# 只保留: m1 系统设置 / m2 网络代理 / m3 网络检测 / m4 Docker管理 / m6 证书管理 / m7 系统管理
+# 只保留: m1 系统设置 / m2 网络代理 / m3 网络检测 / m4 Docker管理 / m7 系统管理 / m10 更新卸载
 # 子脚本拉取地址已改为本仓库 guniangmeiyanruhua/gg-toolbox (VPS/OS/PROXY/Docker 子目录每天对比同步上游)
 # m10 更新卸载已适配: 88 从本仓库更新 gg-toolbox.sh, 77 用本仓库 tool/toolboxupdates.sh
 # VPS Toolbox
@@ -336,7 +336,6 @@ MAIN_MENU=(
     "网络代理"
     "网络检测"
     "Docker管理"
-    "证书管理"
     "系统管理"
     "更新卸载"
 )
@@ -347,11 +346,11 @@ SUB_MENU[2]="20 代理工具箱|21 FRP管理|22 EasyTier组网|23 ShellCrash|24 
 SUB_MENU[3]="42 NodeQuality|43 融合怪测试|44 YABS测试|45 网络质量体检|46 IP质量体检|47 硬盘质量体检|48 TcpQuality|49 简单回程测试|50 完整路由检测|51 流媒体解锁|52 三网测速|53 网络PING/DNS检测|54 检查25端口开放|55 网络工具箱"
 SUB_MENU[4]="56 Docker管理|57 DockerCompose管理|58 DockerCompose备份恢复|59 DockerCompose自动更新"
 
-SUB_MENU[5]="67 NGINXV4反代✨|68 NGINXV6反代|69 Caddy反代|70 Acme申请证书|71 Lucky反代"
-SUB_MENU[6]="72 系统清理|73 重装系统|74 系统组件|75 开发环境|76 工作区管理|78 防火墙管理|79 Fail2ban|80 系统监控|81 添加SWAP|82 DNS管理|83 定时任务"
+
+SUB_MENU[5]="72 系统清理|73 重装系统|74 系统组件|75 开发环境|76 工作区管理|78 防火墙管理|79 Fail2ban|80 系统监控|81 添加SWAP|82 DNS管理|83 定时任务"
 
 
-SUB_MENU[7]="77 自动更新|88 更新工具箱|99 卸载工具箱"
+SUB_MENU[6]="77 自动更新|88 更新工具箱|99 卸载工具箱"
 
 # 显示一级菜单
 show_main_menu() {
@@ -533,11 +532,6 @@ execute_choice() {
         57) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Docker/dockercompose.sh) ;;
         58) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Docker/Dockcompbauck.sh) ;;
         59) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Docker/dockerupdate.sh) ;;
-        67) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Nginxos.sh) ;;
-        68) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Nginx6os.sh) ;;
-        69) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Caddyos.sh) ;;
-        70) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Acmeos.sh) ;;
-        71) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Docker/Lucky.sh) ;;
         72) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/clear.sh) ;;
         73) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/reinstall.sh) ;;
         74) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/package.sh) ;;
