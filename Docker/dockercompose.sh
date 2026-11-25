@@ -14,7 +14,7 @@ RESET="\033[0m"
 # 脚本路径与代理配置
 # =============================
 SCRIPT_PATH="/etc/dockercompose.sh"
-SCRIPT_URL="raw.githubusercontent.com/sistarry/toolbox/main/Docker/dockercompose.sh" # 去掉 https:// 方便拼接
+SCRIPT_URL="raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Docker/dockercompose.sh" # 去掉 https:// 方便拼接
 BIN_LINK_DIR="/usr/local/bin"
 
 GITHUB_PROXY=(
@@ -645,7 +645,7 @@ run_docker() {
         'https://ghproxy.lvedong.eu.org/'
     )
     
-    local RAW_URL="https://raw.githubusercontent.com/sistarry/toolbox/main/OS/Dockersos.sh"
+    local RAW_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Dockersos.sh"
     local TEMP_SCRIPT="/tmp/docker_temp.sh"
     local success=false
 
@@ -696,7 +696,7 @@ run_backup() {
         'https://ghproxy.lvedong.eu.org/'
     )
     
-    local RAW_URL="https://raw.githubusercontent.com/sistarry/toolbox/main/Docker/Dockcompbauck.sh"
+    local RAW_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Docker/Dockcompbauck.sh"
     local TEMP_SCRIPT="/tmp/backup_temp.sh"
     local success=false
 
@@ -748,7 +748,7 @@ run_update() {
         'https://ghproxy.lvedong.eu.org/'
     )
     
-    local RAW_URL="https://raw.githubusercontent.com/sistarry/toolbox/main/Docker/dockerupdate.sh"
+    local RAW_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Docker/dockerupdate.sh"
     local TEMP_SCRIPT="/tmp/update.sh"
     local success=false
 

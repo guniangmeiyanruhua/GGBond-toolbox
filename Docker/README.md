@@ -16,7 +16,7 @@
 ## 安装
 
 ```bash
-bash <(curl -sL https://raw.githubusercontent.com/sistarry/toolbox/main/Docker/Store.sh) 
+bash <(curl -sL https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Docker/Store.sh) 
 ```
 
 

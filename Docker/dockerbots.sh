@@ -4,8 +4,8 @@ GREEN="\033[32m"
 RED="\033[31m"
 RESET="\033[0m"
 
-MASTER_URL="https://raw.githubusercontent.com/sistarry/toolbox/main/Docker/dockerfleetmaster.sh"
-NODE_URL="https://raw.githubusercontent.com/sistarry/toolbox/main/Docker/dockerfleetnode.sh"
+MASTER_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Docker/dockerfleetmaster.sh"
+NODE_URL="https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Docker/dockerfleetnode.sh"
 
 install_master() {
     echo -e "${GREEN}正在部署 TelegramBot 主控...${RESET}"

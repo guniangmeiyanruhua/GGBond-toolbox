@@ -3,7 +3,7 @@
 # Docker 自动更新管理器 
 # ========================================
 
-RAW_SCRIPT_URL="raw.githubusercontent.com/sistarry/toolbox/main/Docker/dockerupdate.sh"
+RAW_SCRIPT_URL="raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Docker/dockerupdate.sh"
 SCRIPT_PATH="/etc/dockerupdate.sh"
 CRON_TAG="# docker-project-update"
 
