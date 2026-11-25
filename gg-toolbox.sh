@@ -1,7 +1,7 @@
 #!/bin/bash
 # GGBond的工具箱 - 基于 sistarry/toolbox 裁剪
 # 原仓库: https://github.com/sistarry/toolbox
-# 只保留: m1 系统设置 / m2 网络代理 / m3 网络检测 / m4 Docker管理 / m7 系统管理 / m10 更新卸载
+# 只保留: m1 系统设置 / m2 网络代理 / m3 网络检测 / m7 系统管理 / m10 更新卸载
 # 子脚本拉取地址已改为本仓库 guniangmeiyanruhua/gg-toolbox (VPS/OS/PROXY/Docker 子目录每天对比同步上游)
 # m10 更新卸载已适配: 88 从本仓库更新 gg-toolbox.sh, 77 用本仓库 tool/toolboxupdates.sh
 # VPS Toolbox
@@ -335,7 +335,6 @@ MAIN_MENU=(
     "系统设置"
     "网络代理"
     "网络检测"
-    "Docker管理"
     "系统管理"
     "更新卸载"
 )
@@ -344,13 +343,13 @@ MAIN_MENU=(
 SUB_MENU[1]="1 更新系统|2 系统信息|3 修改root密码|4 root登录管理|5 修改SSH端口|6 修改时区|7 时间同步|8 切换v4V6|9 开放所有端口|10 更换系统源|11 DDdebian13|12 DDwindows|13 NAT鸡重装系统|14 DD飞牛|15 修改语言|16 修改主机名|17 DNS优化|18 一键优化✨|19 VPS重启"
 SUB_MENU[2]="20 代理工具箱|21 FRP管理|22 EasyTier组网|23 ShellCrash|24 CFWARP|25 Tcpfit动态TCP调优|26 BBR+TCP智能调参|27 Socks5/HTTP|28 VlessReality|29 Snell|30 Shadowsocks|31 VlessEncryption|32 Hysteria2|33 Xray-Argo|34 AnyTLS|35 nftables|36 Realm|37 哆啦A梦转发面板|38 DDNS动态域名|39 流媒体DNS解锁|40 流量狗|41 流量监控"
 SUB_MENU[3]="42 NodeQuality|43 融合怪测试|44 YABS测试|45 网络质量体检|46 IP质量体检|47 硬盘质量体检|48 TcpQuality|49 简单回程测试|50 完整路由检测|51 流媒体解锁|52 三网测速|53 网络PING/DNS检测|54 检查25端口开放|55 网络工具箱"
-SUB_MENU[4]="56 Docker管理|57 DockerCompose管理|58 DockerCompose备份恢复|59 DockerCompose自动更新"
 
 
-SUB_MENU[5]="72 系统清理|73 重装系统|74 系统组件|75 开发环境|76 工作区管理|78 防火墙管理|79 Fail2ban|80 系统监控|81 添加SWAP|82 DNS管理|83 定时任务"
+
+SUB_MENU[4]="72 系统清理|73 重装系统|74 系统组件|75 开发环境|76 工作区管理|78 防火墙管理|79 Fail2ban|80 系统监控|81 添加SWAP|82 DNS管理|83 定时任务"
 
 
-SUB_MENU[6]="77 自动更新|88 更新工具箱|99 卸载工具箱"
+SUB_MENU[5]="77 自动更新|88 更新工具箱|99 卸载工具箱"
 
 # 显示一级菜单
 show_main_menu() {
@@ -528,10 +527,6 @@ execute_choice() {
         53) bash <(wget -qO- https://raw.githubusercontent.com/Cd1s/network-latency-tester/main/latency.sh) ;;
         54) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/Telnet.sh) ;;
         55) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/Networktoolx.sh) ;; 
-        56) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/OS/Dockersos.sh) ;;
-        57) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Docker/dockercompose.sh) ;;
-        58) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Docker/Dockcompbauck.sh) ;;
-        59) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/Docker/dockerupdate.sh) ;;
         72) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/clear.sh) ;;
         73) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/reinstall.sh) ;;
         74) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/gg-toolbox/main/VPS/package.sh) ;;
