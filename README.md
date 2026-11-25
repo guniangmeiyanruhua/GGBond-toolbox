@@ -1,4 +1,4 @@
-# GG Toolbox 精简版
+# GGBond的工具箱
 
 基于 [sistarry/toolbox](https://github.com/sistarry/toolbox) 的 `tool/vps-toolbox.sh` 裁剪复制，只保留 GG 需要的 7 个一级菜单，子功能执行代码与原仓库保持一致。主脚本的 64 个子脚本入口已改为拉取本仓库的子目录副本（见下）：
 

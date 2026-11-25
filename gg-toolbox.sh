@@ -1,5 +1,5 @@
 #!/bin/bash
-# GG Toolbox (精简版) - 基于 sistarry/toolbox 裁剪
+# GGBond的工具箱 - 基于 sistarry/toolbox 裁剪
 # 原仓库: https://github.com/sistarry/toolbox
 # 只保留: m1 系统设置 / m2 网络代理 / m3 网络检测 / m4 Docker管理 / m6 证书管理 / m7 系统管理
 # 子脚本拉取地址已改为本仓库 guniangmeiyanruhua/gg-toolbox (VPS/OS/PROXY/Docker 子目录每天对比同步上游)
@@ -360,7 +360,7 @@ show_main_menu() {
     rainbow_animate "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
     # 标题文字改为纯黄色
-    echo -e "${ORANGE}📦 GG Toolbox 精简版工具箱${reset}${yellow}(原 m1/m2/m3/m4/m6/m7, 快捷指令:N/n)${reset} ${ORANGE}📦${reset}"
+    echo -e "${ORANGE}📦 GGBond的工具箱${reset}${yellow}(快捷指令:N/n)${reset} ${ORANGE}📦${reset}"
 
     # 下边框保留彩虹效果
     rainbow_animate "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
