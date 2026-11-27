@@ -346,7 +346,7 @@ SUB_MENU[3]="42 NodeQuality|43 融合怪测试|44 YABS测试|45 网络质量体�
 
 
 
-SUB_MENU[4]="72 系统清理|73 重装系统|74 系统组件|75 开发环境|76 工作区管理|78 防火墙管理|79 Fail2ban|80 系统监控|81 添加SWAP|82 DNS管理|83 定时任务"
+SUB_MENU[4]="72 系统清理|73 重装系统|74 系统组件|75 开发环境|78 防火墙管理|79 Fail2ban|80 系统监控|81 添加SWAP|82 DNS管理|83 定时任务"
 
 
 SUB_MENU[5]="77 自动更新|88 更新工具箱|99 卸载工具箱"
@@ -524,7 +524,6 @@ execute_choice() {
         73) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/reinstall.sh) ;;
         74) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/package.sh) ;;
         75) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/exploitation.sh) ;;
-        76) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/tmux.sh) ;;
         78) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/firewallos.sh) ;;
         79) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/Fail2banos.sh) ;;
         80) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/System.sh) ;;
