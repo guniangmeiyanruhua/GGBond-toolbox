@@ -341,7 +341,7 @@ MAIN_MENU=(
 
 # 二级菜单（编号去掉前导零，显示时格式化为两位数）
 SUB_MENU[1]="1 更新系统|2 系统信息|3 修改root密码|4 root登录管理|5 修改SSH端口|6 修改时区|7 时间同步|8 切换v4V6|9 开放所有端口|10 更换系统源|11 DDdebian13|12 DDwindows|13 NAT鸡重装系统|14 修改语言|15 修改主机名|16 DNS优化|17 一键优化✨|18 VPS重启"
-SUB_MENU[2]="20 代理工具箱|21 FRP管理|22 EasyTier组网|23 ShellCrash|24 CFWARP|25 Tcpfit动态TCP调优|26 BBR+TCP智能调参|27 Socks5/HTTP|28 VlessReality|29 Snell|30 Shadowsocks|31 VlessEncryption|32 Hysteria2|33 Xray-Argo|34 AnyTLS|35 nftables|36 Realm|37 哆啦A梦转发面板|38 DDNS动态域名|39 流媒体DNS解锁|40 流量狗|41 流量监控"
+SUB_MENU[2]="20 代理工具箱|21 FRP管理|22 EasyTier组网|23 ShellCrash|24 CFWARP|25 Tcpfit动态TCP调优|26 BBR+TCP智能调参|27 VlessReality|28 Snell|29 Shadowsocks|30 VlessEncryption|31 Hysteria2|32 Xray-Argo|33 AnyTLS|34 DDNS动态域名|35 流量监控"
 SUB_MENU[3]="42 NodeQuality|43 融合怪测试|44 YABS测试|45 网络质量体检|46 IP质量体检|47 硬盘质量体检|48 TcpQuality|49 简单回程测试|50 完整路由检测|51 流媒体解锁|52 三网测速|53 网络PING/DNS检测|54 检查25端口开放|55 网络工具箱"
 
 
@@ -497,21 +497,15 @@ execute_choice() {
         24) wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh ;;
         25) bash <(curl -fsSL https://raw.githubusercontent.com/Kylin010/tcpfit/main/tcpfit.sh) ;;
         26) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/BBR.sh) ;;
-        27) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/MicaProxyos.sh) ;;
-        28) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/XrayVLESS-Realityos.sh) ;;
-        29) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/Snellv6SSos.sh) ;;
-        30) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/SB-SS2022os.sh) ;;
-        31) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/XrayVLESS-Encryptionos.sh) ;;
-        32) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/SB-Hy2os.sh) ;;
-        33) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/2go.sh) ;;
-        34) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/SB-AnyTLSos.sh) ;;
-        35) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/nftablesos.sh) ;;
-        36) smart_pipe_run "https://raw.githubusercontent.com/zywe03/realm-xwPF/main/xwPF.sh" "install" ;;
-        37) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/flux-panel.sh);;
-        38) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/DDNS.sh) ;;
-        39) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/SNIProxyDNSos.sh) ;;
-        40) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/port-traffic-dog.sh) ;;
-        41) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/vnstat.sh) ;;
+        27) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/XrayVLESS-Realityos.sh) ;;
+        28) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/Snellv6SSos.sh) ;;
+        29) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/SB-SS2022os.sh) ;;
+        30) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/XrayVLESS-Encryptionos.sh) ;;
+        31) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/SB-Hy2os.sh) ;;
+        32) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/2go.sh) ;;
+        33) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/OS/SB-AnyTLSos.sh) ;;
+        34) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/PROXY/DDNS.sh) ;;
+        35) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/vnstat.sh) ;;
         42) bash <(smart_curl https://raw.githubusercontent.com/guniangmeiyanruhua/GGBond-toolbox/main/VPS/NodeQuality.sh) ;;
         43) curl -L https://gitlab.com/spiritysdx/za/-/raw/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh ;;
         44) curl -sL https://yabs.sh | bash ;;
